@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script type="module" src="main.js"></script>
+        <title>WYSIWYG</title>
+    </head>
+    <body>
+        <h1>my_wysiwyg</h1>
+        <div id="bar_outils">
+            <input type="submit" value= "Enregistrer" id="saveButton"/>
+            <button id="b">
+                <i class="bold material-icons">
+                    format_bold            
+                </i>
+            </button>
+            
+            <button id="i">
+                <i class="italic material-icons">
+                    format_italic
+                </i>
+            </button>
+            <button id="s">
+                <i class="slashedText material-icons">
+                    strikethrough_s
+                </i>
+            </button>
+                <i class ="color material-icons">
+                    format_color_text
+                </i>
+                <input type="color" id="color-picker">
+            <button id="plus">    
+                <i class="increase material-icons">
+                    text_increase
+                </i>
+            </button>
+            <button id="moins">    
+                <i class="decrease material-icons">
+                    text_decrease
+                </i>
+            </button>
+            <button id="lien">
+                <i class="link material-icons">
+                    link                
+                </i>
+            </button>
+            <button id="more">
+                <i class="up material-icons">
+                    maximize
+                    </i>
+            </button>
+            <button id="less">
+                <i class="down material-icons">
+                    minimize
+                    </i>
+            </button>
+            <button id="align_l">
+                <i class="left material-icons">
+                    format_align_left
+                </i>
+            </button>
+            <button id="align_r">
+                <i class="right material-icons">
+                    format_align_right
+                </i>
+            </button>
+            <button id="align_c">
+                <i class="center material-icons">
+                    format_align_center
+                </i>
+            </button>
+            <button id="justify">
+                <i class="justify material-icons">
+                    format_align_justify
+                </i>
+            </button>
+            <button id="switch_mod">
+                <i class="code material-icons">
+                code
+                </i></button>
+        </div>
+
+        <div id="container">
+            <div id="plain-text" contenteditable="true"></div>
+        </div>
+    </body>
+</html>
